@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-Homework Week 2
+# PortfolioSite
+Simple website to show off a photography portfolio
