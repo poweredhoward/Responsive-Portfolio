@@ -91,8 +91,8 @@ button {
 
 .left-tile {
 	position: relative;
-	height: 175px;
-	width: 265px;
+	height: 155px;
+	width: 230px;
 	display: inline-block;
 	float-left;
 	margin-right: 40px;
@@ -100,8 +100,8 @@ button {
 
 .right-tile {
 	position: relative;
-	height: 175px;
-	width: 265px;
+	height: 155px;
+	width: 230px;
 	display: inline-block;
 }
 
@@ -168,4 +168,60 @@ button {
 	left: 50%;
 	bottom: 5px;
 	color: white;
+}
+
+@media screen and (max-width: 980px) {
+/*
+Not really sure what to put here...
+I think the website behaves correctly already
+*/
+}
+
+
+@media screen and (max-width: 768px) {
+ /*
+Not really sure what to put here...
+I think the website behaves correctly already
+*/
+}
+
+
+@media screen and (max-width: 640px) {
+  /* The body's bg color will be #333 */
+  body {
+    background-color: white;
+  }
+
+  #navsection{
+  	position: static;
+  	min-height:100px;
+  }
+
+  h1 {
+  	display: block;
+  	height: 60%;
+  	width: 100%;
+  	position: static;
+  	text-align: center;  
+  }
+
+  nav {
+  	display: block;
+  	margin: 4px 0px 4px 0px;
+  	height: 40%;
+  	width: 100%;
+  	position: static;
+  }
+
+  nav ul {
+  	display: flex;
+  	justify-content: center;
+  }
+
+  #headshot {
+  	position: static;
+  	display: block;
+  	float: none;
+  	margin: 0 auto;
+  }
 }
